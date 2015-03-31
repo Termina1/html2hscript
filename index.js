@@ -67,6 +67,8 @@ module.exports = function(html, cb) {
                 if (mainText.length > 0) {
                     currentItemList.add(JSON.stringify(mainText));
                 }
+                
+                currentItemList.addSpace(postSpace);
 
                 isFirst = false;
             });
